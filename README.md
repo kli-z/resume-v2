@@ -1,4 +1,3 @@
-:octocat:
 From https://courses.karlstolley.com/fwd/projects/#project-two
 
 
@@ -38,4 +37,3 @@ Requirements
     Organized, readable source that is hand-written and original (no WYSIWYGs or code-generators, no Bootstrap or other off-the-shelf HTML or CSS frameworks)
     A Git repository with frequent commits and meaningful commit messages that accurately reflect each set of changes that you make
     GitHub repository must contain only the files and commits from this project; you are encouraged to use and further improve your HTML files from Project 1
-:octocat:
