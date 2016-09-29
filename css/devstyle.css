@@ -10,23 +10,33 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* The rest is written by me. */
 
+:root { /* Theme handling. */
+  /* Color control. */
+  --border1: #555599;
+  --nonblack: #222;
+  --nonwhite: #eee;
+
+  /* Spacing control. */
+  --comfy1: 0.1em;
+}
+
 body {
   background-color: #ddd;
-  color: #222;
+  color: var(--nonblack);
   margin: 0 0 0 1em;
 }
 
 footer {
-  border: 0.1em solid #555599;
+  border: 0.1em solid var(--border1);
   margin: 1.5em .5em 0 -.5em;
-  padding: 0.1em;
+  padding: var(--comfy1);
 }
 
 li.contact {
   background-color: #eee;
-  border: 0.15em solid #555599;
+  border: 0.15em solid var(--border1);
   box-shadow: 0.3em 0.2em 0.2em #555;
   line-height: 1.3em;
   margin: 0.4em 4em 0.4em 2em;
-  padding: 0.1em;
+  padding: var(--comfy1);
 }
