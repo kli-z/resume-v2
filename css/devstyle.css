@@ -130,3 +130,27 @@ h3 {
   font-size: 1.1em;
   padding: 0 0 0 1em;
 }
+
+figure {
+
+}
+figcaption {
+  border: 0.3em solid #888;
+  box-shadow: 0.3em 0.2em 0.2em #222;
+  padding: 0.4em;
+  margin: 0.4em 0 0 0;
+  font-family: monospace;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #555;
+}
+
+img {
+  max-width: 100%;
+}
+#thebabe {
+  text-align: center;
+  display: inline-block;
+  height: 20em;
+  margin: 1em;
+}
