@@ -20,21 +20,87 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   --comfy1: 0.1em;
 }
 
-body {
-  background-color: #ddd;
+nav {
+  background-color: #333;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  text-align:center;
+  display: inline-block;
+  margin: 0;
+  padding: 1em 1.5em 1em 1.5em;
+  background-color: #404040;
+}
+
+nav ul li a {
+  display: block;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 600;
+  color: var(--nonwhite);
+  text-align: center;
+  padding: 0 0 0 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+header {
+  padding: 0;
+  margin: 1.4em 0 1.4em 2.8em;
+}
+h1 {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: 600;
   color: var(--nonblack);
-  margin: 0 0 0 1em;
+}
+
+#education, #prgrming, #workxp {
+  margin: 0 0 1em 1.4em;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 1em;
+}
+h2 {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 1.7em;
+  font-weight: 200;
+  color: var(--nonblack);
+  margin: 0 0 0.1em;
+}
+
+body {
+  background-color: #ddddee;
+  color: var(--nonblack);
 }
 
 footer {
-  border: 0.1em solid var(--border1);
-  margin: 1.5em .5em 0 -.5em;
+  border: 0.15em solid var(--border1);
+  margin: 1.5em 0.5em 1em 0.5em;
   padding: var(--comfy1);
+  font-family: Ariel, sans-serif;
+  font-size: 1.2em;
 }
 
 ul.resume1 {
   list-style: square;
-  padding: 0 0 0 1em;
+  padding: 0.4em 0 0 1.9em;
+  line-height: 1.25em;
+  font-size: 1.2em;
+}
+ul.resume2 {
+  list-style: square;
+  padding: 0 0 0.5em 1.9em;
+  line-height: 1.25em;
+  font-size: 0.8em;
 }
 
 li.contact {
