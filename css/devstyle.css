@@ -32,6 +32,11 @@ footer {
   padding: var(--comfy1);
 }
 
+ul.resume1 {
+  list-style: square;
+  padding: 0 0 0 1em;
+}
+
 li.contact {
   background-color: #eee;
   border: 0.15em solid var(--border1);
