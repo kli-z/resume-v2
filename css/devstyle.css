@@ -26,21 +26,16 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 nav {
   background-color: #333;
   width: 100%;
-  padding: 0;
-  margin: 0;
 }
 
 nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   text-align: center;
 }
 
 nav ul li {
   text-align:center;
   display: inline-block;
-  margin: 0;
   padding: 1em 1.44em 1em 1.44em;
   background-color: #404040;
 }
@@ -51,8 +46,6 @@ nav ul li a {
   font-weight: 600;
   color: var(--nonwhite);
   text-align: center;
-  padding: 0 0 0 0;
-  margin: 0;
   text-decoration: none;
 }
 
