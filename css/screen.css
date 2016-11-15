@@ -94,13 +94,13 @@ p {
 
 ul.resume1 {
   list-style: square;
-  padding: 0.402em 0 0 2.074em;
+  padding: 0.402em 0 0 1.2em;
   line-height: 1.2em;
   font-size: 1.2em;
 }
 ul.resume2 {
   list-style: square;
-  padding: 0 0 0.482em 2.074em;
+  padding: 0 0 0.482em 1.2em;
   line-height: 1.2em;
   font-size: 0.833em;
 }
