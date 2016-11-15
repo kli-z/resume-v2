@@ -51,7 +51,6 @@ nav ul li a {
 }
 
 header {
-  padding: 0;
   margin: 1.44em 0 1.44em 2.986em;
 }
 h1 {
@@ -151,4 +150,14 @@ img {
   display: inline-block;
   height: 20em;
   margin: auto;
+}
+
+/* Media Queries */
+@media screen and (min-width: 37.453286222em) { /* 600px given the modular scale */
+  header {
+    margin: 1.44em 0 1.44em 0;
+  }
+  h1 {
+    text-align: center;
+  }
 }
