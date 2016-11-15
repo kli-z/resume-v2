@@ -29,18 +29,18 @@ nav {
 }
 
 nav ul {
-  list-style-type: none;
   text-align: center;
+  /* Centers elements in the nav bar. */
 }
 
 nav ul li {
-  text-align:center;
   display: inline-block;
-  padding: 1em 1.44em 1em 1.44em;
-  background-color: #404040;
 }
 
 nav ul li a {
+  padding: 1em 1.44em 1em 1.44em;
+  margin: 0.162em 0 0.162em 0;
+  background-color: #404040;
   display: block;
   font-family: Roboto, Helvetica, sans-serif;
   font-weight: 600;
