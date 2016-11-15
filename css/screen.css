@@ -88,7 +88,7 @@ footer {
 }
 
 p {
-  margin: 0 0 0 1em;
+  margin: 0 0.402em 1em 0.402em;
   font-family: Roboto, Helvetica, sans-serif;
   font-size: 1.2em;
   line-height: 1.2em;
@@ -129,13 +129,13 @@ h3 {
 }
 
 figure {
-
+  text-align: center;
 }
 figcaption {
   border: 0.335em solid #888;
   box-shadow: 0.335em 0.335em 0.335em #222;
   padding: 0.402em;
-  margin: 0.402em 0 0 0;
+  margin: 0.402em 0 1.2em 0;
   font-family: monospace;
   font-size: 1.2em;
   font-weight: 600;
@@ -144,10 +144,11 @@ figcaption {
 
 img {
   max-width: 100%;
+  border: 0.162em solid #222;
 }
-#thebabe {
+#thebabe, #eleguitar {
   text-align: center;
-  display: block;
+  display: inline-block;
   height: 20em;
   margin: auto;
 }
